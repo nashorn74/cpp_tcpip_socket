@@ -9,6 +9,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AsyncSelectTCPServer", "Asy
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EventSelectTCPServer", "EventSelectTCPServer\EventSelectTCPServer.vcxproj", "{CD1C1CA2-FA1A-493F-B207-D7740D01D122}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OverlappedTCPServer", "OverlappedTCPServer\OverlappedTCPServer.vcxproj", "{1387F127-E838-4996-A08C-97780DA2BD07}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CompletionPortTCPServer", "CompletionPortTCPServer\CompletionPortTCPServer.vcxproj", "{6201EB73-95DB-4372-8AD8-D98C5F0E48FF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +45,22 @@ Global
 		{CD1C1CA2-FA1A-493F-B207-D7740D01D122}.Release|x64.Build.0 = Release|x64
 		{CD1C1CA2-FA1A-493F-B207-D7740D01D122}.Release|x86.ActiveCfg = Release|Win32
 		{CD1C1CA2-FA1A-493F-B207-D7740D01D122}.Release|x86.Build.0 = Release|Win32
+		{1387F127-E838-4996-A08C-97780DA2BD07}.Debug|x64.ActiveCfg = Debug|x64
+		{1387F127-E838-4996-A08C-97780DA2BD07}.Debug|x64.Build.0 = Debug|x64
+		{1387F127-E838-4996-A08C-97780DA2BD07}.Debug|x86.ActiveCfg = Debug|Win32
+		{1387F127-E838-4996-A08C-97780DA2BD07}.Debug|x86.Build.0 = Debug|Win32
+		{1387F127-E838-4996-A08C-97780DA2BD07}.Release|x64.ActiveCfg = Release|x64
+		{1387F127-E838-4996-A08C-97780DA2BD07}.Release|x64.Build.0 = Release|x64
+		{1387F127-E838-4996-A08C-97780DA2BD07}.Release|x86.ActiveCfg = Release|Win32
+		{1387F127-E838-4996-A08C-97780DA2BD07}.Release|x86.Build.0 = Release|Win32
+		{6201EB73-95DB-4372-8AD8-D98C5F0E48FF}.Debug|x64.ActiveCfg = Debug|x64
+		{6201EB73-95DB-4372-8AD8-D98C5F0E48FF}.Debug|x64.Build.0 = Debug|x64
+		{6201EB73-95DB-4372-8AD8-D98C5F0E48FF}.Debug|x86.ActiveCfg = Debug|Win32
+		{6201EB73-95DB-4372-8AD8-D98C5F0E48FF}.Debug|x86.Build.0 = Debug|Win32
+		{6201EB73-95DB-4372-8AD8-D98C5F0E48FF}.Release|x64.ActiveCfg = Release|x64
+		{6201EB73-95DB-4372-8AD8-D98C5F0E48FF}.Release|x64.Build.0 = Release|x64
+		{6201EB73-95DB-4372-8AD8-D98C5F0E48FF}.Release|x86.ActiveCfg = Release|Win32
+		{6201EB73-95DB-4372-8AD8-D98C5F0E48FF}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
