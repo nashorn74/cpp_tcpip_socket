@@ -1,5 +1,0 @@
-﻿  stdafx.cpp
-  MultithreadTCPClient.cpp
-c:\users\administrator\source\repos\tcpserverclient\multithreadtcpclient\multithreadtcpclient.cpp(67): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\administrator\source\repos\tcpserverclient\multithreadtcpclient\multithreadtcpclient.cpp(71): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  MultithreadTCPClient.vcxproj -> C:\Users\Administrator\source\repos\TCPServerClient\x64\Debug\MultithreadTCPClient.exe
